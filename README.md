@@ -4,6 +4,23 @@ Forked from the [Uniswap SDK](https://github.com/Uniswap/uniswap-v2-sdk/commit/a
 
 You can refer to the Uniswap SDK documentation [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).
 
+# Owlswap changes
+
+OwlSwap Project Structure
+
+```
+|-- owlswap-frontend
+|-- owlswap-sdk
+|-- owlswap-toolkit
+```
+OwlSwap Instructions
+
+Checkout to owlswap branch
+
+run `yarn install`
+
+`yarn build && ./copy.sh`
+
 ## Running tests
 
 To run the tests, follow these steps. You must have at least node v10 and [yarn](https://yarnpkg.com/) installed.
